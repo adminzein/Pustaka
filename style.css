@@ -1,0 +1,103 @@
+  <style>
+   body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e3a8a, #06b6d4);
+  color: white;
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header h1{
+text-shadow: 2px 2px 4px #000000;
+text-align: left;
+color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #facc15;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #e0f2fe;
+}
+
+
+section {
+  background: rgba(255, 255, 255, 0.08);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+}
+
+
+article {
+  margin-top: 15px;
+  padding: 15px;
+  border-left: 5px solid blue;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  background: rgba(0,0,0,0.6);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  width: 350px;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.1);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+footer {
+text-align: center;
+color : white;
+background: blue;
+margin-top: 5px;
+box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+}
+  </style>
